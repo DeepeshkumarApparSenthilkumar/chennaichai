@@ -3,9 +3,14 @@ import { MapPin, Heart, Leaf, Users, Zap } from 'lucide-react';
 
 const TIMELINE = [
   {
+    year: 'The Dream — Chennai',
+    title: 'Born Over Chai',
+    desc: "A true tea lover at heart, Deepesh spent years at Shiv Nadar University Chennai talking about this very idea with his closest friends. Campus tea stalls, late-night hostels, long chai breaks between lectures — the dream of building an authentic South Indian chai brand was always the conversation.",
+  },
+  {
     year: 'Fall 2025',
-    title: 'The First Cup',
-    desc: "Deepesh Kumar arrives at IIT Chicago for his Master's in Computer Science. Homesick for Chennai, he brews his mother's masala chai in his dorm room — and his floor-mates can't stop asking for more.",
+    title: 'Chicago Calls',
+    desc: "Deepesh arrives at IIT Chicago for his Master's in Computer Science — carrying his mother's masala chai recipe and a promise he made to his friends back in Chennai. He brews his first batch in his dorm room. His floor-mates can't stop asking for more.",
   },
   {
     year: 'Winter 2025',
@@ -61,19 +66,30 @@ export default function StoryPage() {
               <h2 className="font-display text-4xl font-bold text-[#1A0A00] mb-6">Deepesh Kumar</h2>
               <div className="space-y-4 text-[#5C3317]/80 leading-relaxed">
                 <p>
-                  Growing up in Chennai, chai was never just a drink — it was the punctuation between every moment.
-                  Morning alarm, afternoon break, late-night study session. Every feeling had its chai.
+                  Deepesh has always been a devoted tea lover — not just a drinker, but a true connoisseur of South Indian chai.
+                  For him, every cup was a ritual, a conversation starter, a reason to pause and connect.
+                </p>
+                <p>
+                  Long before Chennai Chai became a reality, it was an idea Deepesh had been nurturing and talking about for years
+                  with his closest friends at <span className="font-semibold text-[#5C3317]">Shiv Nadar University Chennai</span>.
+                  Late-night hostel conversations, campus tea stalls, heated debates about the perfect ginger ratio —
+                  the dream of bringing authentic South Indian chai to the world was always brewing in the background.
+                </p>
+                <p>
+                  His friends knew it first. &quot;Deepesh, just do it already,&quot; they&apos;d say. The idea was discussed, refined,
+                  and kept alive through every cup shared in Chennai.
                 </p>
                 <p>
                   When Deepesh landed in Chicago in August 2025 to pursue his Master&apos;s in Computer Science at IIT,
                   the city was electric — but something was missing. That thick, cardamom-kissed, perfectly sweetened
-                  South Indian chai that no café in the city could quite replicate.
+                  chai that no café in the city could quite replicate. This was his moment.
+                  He hadn&apos;t just come to Chicago to study — he&apos;d come to <em>deliver</em> on a promise made over cups of chai back home.
                 </p>
                 <p>
                   So he made it himself. And then shared it. And then couldn&apos;t stop.
                 </p>
                 <p className="text-[#FF6F00] font-display font-semibold italic text-lg">
-                  &quot;Chai isn&apos;t just a product. It&apos;s a piece of home I carry everywhere I go.&quot;
+                  &quot;This wasn&apos;t just my idea. It was born in every chai conversation I ever had with my friends in Chennai.&quot;
                 </p>
               </div>
             </div>
@@ -89,6 +105,7 @@ export default function StoryPage() {
                 <p className="text-[#FF6F00] font-semibold text-sm mb-4">Founder & Head Chai Maker</p>
                 <div className="space-y-2 text-sm text-[#FDF6EC]/60">
                   <p className="flex items-center justify-center gap-2"><MapPin size={14} className="text-[#FF6F00]" /> Chennai, Tamil Nadu → Chicago, IL</p>
+                  <p>B.Tech, Shiv Nadar University Chennai</p>
                   <p>MS Computer Science, 2025–2027</p>
                   <p>Illinois Institute of Technology</p>
                 </div>
